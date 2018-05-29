@@ -107,4 +107,3 @@ __pycache__/
 example/__pycache__/
 example/data/*.csv
 example/output/*.csv
-yellowfin.py
