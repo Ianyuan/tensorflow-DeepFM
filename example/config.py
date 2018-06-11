@@ -1,7 +1,7 @@
 
 # set the path-to-files
-TRAIN_FILE = "/home/luban/work_jupyter/point_rec_data/train.csv.test"
-TEST_FILE = "/home/luban/work_jupyter/point_rec_data/test.csv.test"
+TRAIN_FILE = "/home/luban/work_jupyter/point_rec_data/train.csv"
+TEST_FILE = "/home/luban/work_jupyter/point_rec_data/test.csv"
 
 SUB_DIR = "./output"
 
