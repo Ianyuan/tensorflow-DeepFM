@@ -160,6 +160,9 @@ class DeepFM(BaseEstimator, TransformerMixin):
             self.sess = self._init_session()
             self.sess.run(init)
             
+            # tensorboard
+            tf.summary.FileWriter('./my_graph', self.sess.graph)
+            
             # number of params
             total_parameters = 0
             for variable in self.weights.values():
